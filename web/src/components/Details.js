@@ -35,9 +35,9 @@ function Details() {
                 <div className="detail-content">
                   <h2>{data.title}</h2>
                   <h6>{data.brand}</h6>
-                  <h5>${data.price}</h5>
+                  <h4>⭐⭐⭐⭐⭐</h4>
                   
-                  <h3>Description : </h3>
+                  <h3>Description </h3>
                   <p>
                     {data.description} Lorem ipsum dolor sit amet, consectetur
                     adipisicing elit. Ea fugit enim voluptate maxime laborum.
@@ -49,10 +49,12 @@ function Details() {
                     adipisicing elit. 
                  </p>
                   <h4> {data.stock} In stock 🕗</h4>
+                  <h5>${data.price}</h5>
                   <div className="row detail-btn justify-content-between">
                     <div className="btns">
-                      <button className="buy-btn">Buy now</button>
-                      <button className="add-btn">Add to cart  🛒</button>
+                    <button className="add-btn">Add to cart  🛒</button>
+                    <button className="buy-btn">Buy now</button>
+                      
                     </div>
                     
                   </div>

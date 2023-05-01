@@ -255,7 +255,7 @@
   .detail-content h5{
     color: #fca311;
     margin-top: 5px;
-    margin-bottom: 3px;
+    margin-bottom: 5px;
   }
   .detail-content h3{
     font-size: 14px;
@@ -276,7 +276,7 @@
     color: white;
     border: 2px solid #fca311;
     padding: 10px 30px;
-    margin-right: 10px;
+   
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.5s;
@@ -291,6 +291,7 @@
     background-color: #fca311;
     font-weight: 500;
     color: white;
+    margin-right: 15px;
     border-radius: 5px;
     padding: 10px 30px;
     transition: all 0.5s;
@@ -304,7 +305,7 @@
     color: #999999;
     font-weight: 500;
     font-size: medium;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
   }
   .justify-content-between{
     justify-content: space-between;
