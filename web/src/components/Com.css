@@ -1,0 +1,312 @@
+
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+   
+}
+
+
+.container 
+{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.header-text
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 0 20px;
+    font-weight: 700;
+    font-size: medium;
+    transition: all 0.5s;
+}
+.header-text:hover
+{
+    color: #ffffff;
+}
+.row1
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo
+{
+    background-image: url(https://cdn.shopify.com/s/files/1/0065/4242/t/55/assets/slim-logo.svg?v=137025862761394426011670425318);
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 30px;
+    justify-content: space-between;
+}
+.header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+    background-color: rgb(255, 255, 255);
+    background: #fca311;
+  }
+  /*--------------------------------- section-1----------------------------- */
+  
+  .section1
+  {
+    padding: 230px !important;
+  }
+  .img-1
+  {
+        background-image: url(https://img.freepik.com/free-photo/couple-shopping-together-mall_53876-25136.jpg?w=740&t=st=1682930814~exp=1682931414~hmac=256a978c5cceb146261848588140226786106882a95099671051ab4475b0c545);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 650px;
+        border: 1px solid  #fca311;
+  }
+  .img-2
+  {
+        background-image: url(https://img.freepik.com/free-photo/young-woman-shopping-with-colorful-packs-black-wall_155003-26321.jpg?w=740&t=st=1682931687~exp=1682932287~hmac=33bc1d7a9678be5c6a158552445301ccb98b39798a0602c125331fe7286288e6);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 650px;
+        border: 1px solid  #fca311;
+  }
+  .my-button {
+    border: 2px solid #fca311;
+    background-color: transparent;
+    color: #fca311;
+    padding: 6px 35px;
+    text-align: center;
+    font-size: medium;
+    font-weight: 500;
+    margin: 8px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.5s;
+  }
+  .my-button:hover
+  {
+    background-color: #fca311;
+    color: white;
+  }
+
+  
+  /* -----------------------------------footer----------------------------------- */
+
+  .w-30
+{
+    width: 33%;
+}
+.bg
+{
+    background-color: #fca311;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size:small;
+}
+.bg h2{
+    color: rgb(255, 255, 255) ;
+    font-size: 15px;
+    padding: 20px 0 20px 10px;
+}
+.bg1 p{
+    padding: 0 90px 0 10px;
+    line-height: 20px;
+}
+.bg1 h6{
+    color: rgb(255, 255, 255) ;
+    font-size: 10px;
+    padding: 20px 0 20px 10px;
+    cursor: pointer;
+}
+
+.bg2 p{
+    padding: 0 90px 0 10px;
+    line-height: 20px;
+}
+.bg2 h6{
+    color:#ffffff;
+    font-size: 12px;
+    padding: 5px 0 20px 10px;
+    cursor: pointer;
+}
+
+.bg3 p{
+    padding: 0 0 0 10px;
+    line-height: 30px;
+}
+.coppyright h2
+{
+   text-align:center ;
+   margin-bottom: 0%;
+   background-color: black;
+   font-size: small;
+   letter-spacing: 1px;
+}
+
+.product .main{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding: 10px;
+}
+.product .main .box{
+    padding: 24px 15px;
+    transition: all 0.5s;
+}
+
+.product .main img{
+    border-radius: 15px;
+    width: 100%;
+    height: 200px;
+}
+.product h2{
+    font-size: medium;
+    padding-top: 20px;
+    color: #fca311;
+}
+.product-text{
+  text-decoration: none;
+}
+.product .main .box h3{
+    padding-top: 10px;
+  font-size: 15px;
+  color: #fca311;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+.main .box p{
+  font-size: small;
+  color: #000000e0;
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+/* --------------------------------------------login-------------------------------------- */
+.signup-box{
+    padding: 12px;
+    margin: 0 auto;
+    width: 40%;
+    border-radius: 15px;
+    margin-top: 80px;
+    border: 2px solid #fca311;
+    text-align: center;
+  }
+  .signup-box h2{
+    color: black;
+    font-weight: 500;
+    margin-bottom: 18px;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+  }
+  .signup-box h2::selection{
+    display: none;
+  }
+  .signup-box input{
+    border: 2px solid #fca311;
+    background-color: transparent;
+    padding: 12px 28px;
+    border-radius: 5px;
+    width: 300px;
+    margin: 18px auto;
+    color:#fca311;
+    font-weight: 500;
+    display: block;
+  }
+  .signup-box input::placeholder{
+    color: rgb(0, 0, 0);
+
+  }
+  .signup-box button{
+    display: block;
+    background-color: #fca311;
+    border: none;
+    color: #ffffff;
+    margin: 0 auto;
+    margin-top: 28px;
+    width: 100px;
+    height: 40px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .signup-box button:hover
+  {
+    background-color: #ff9d00;
+  }
+  /* ----------------------------------details ---------------------------------- */
+  
+.detail-img img{
+    width: 600px;
+    height: 450px;
+  }
+  .detail-box{
+    padding: 100px 0;
+  }
+  .detail-content h2{
+    font-weight: 500;
+    font-size: larger;
+  }
+  .detail-content h6{
+    font-size: medium;
+    font-weight: 500;
+    color: #999999;
+  }
+  .detail-content h5{
+    color: #fca311;
+    margin-top: 5px;
+    margin-bottom: 3px;
+  }
+  .detail-content h3{
+    font-size: 14px;
+    margin-top: 18px;
+  }
+  .detail-content p{
+    color: #000000;
+    font-weight: 500;
+    font-size: small;
+    padding: 5px 200px 5px 0;
+  }
+  .detail-btn{
+    margin-top: 15px;
+  }
+ .buy-btn{
+    background-color: #fca311;
+    font-weight: 500;
+    color: white;
+    border: 2px solid #fca311;
+    padding: 10px 30px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+  .buy-btn:hover
+  {
+    background-color: transparent;
+    color: #fca311;
+  }
+  .add-btn{
+    border: 2px solid #fca311;
+    background-color: #fca311;
+    font-weight: 500;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 30px;
+    transition: all 0.5s;
+  }
+  .add-btn:hover
+  {
+    background-color: transparent;
+    color: #fca311;
+  }
+  .detail-box h4{
+    color: #999999;
+    font-weight: 500;
+    font-size: medium;
+    padding-bottom: 20px;
+  }
+  .justify-content-between{
+    justify-content: space-between;
+    align-items: center;
+  }
